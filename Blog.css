@@ -1,0 +1,34 @@
+body
+{
+  background-color: darkkhaki;
+}
+
+.blog-container{
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 1vw;
+}
+
+.posts-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.post{
+  border: 2px solid maroon;
+  padding: 1vw;
+  margin-bottom: .5vw;
+}
+
+.add-post-container{
+  margin-top: 1vw;
+}
+
+input,
+textarea,
+
+button{
+  margin-bottom: 1vw;
+  font-size: 14;
+  padding: .5vw;
+}
